@@ -16,7 +16,7 @@ fn ford_fulkerson_gaps_in_edge_index_test() {
     let ac = g.add_edge(a, c, 1);
     let ab = g.add_edge(a, b, 1);
     let bc = g.add_edge(b, c, 1);
-    let cd = g.add_edge(b, d, 1);
+    let cd = g.add_edge(c, d, 1);
 
     // Current state of graph:
     // a --1-- b --1-- c --1-- d
